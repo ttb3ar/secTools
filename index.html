@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-language="en">
+<head>
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cybersecurity Multi-Tool</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="language-switch-wrapper">
+    <label class="language-switch" for="language-checkbox">
+      <input type="checkbox" id="language-checkbox" />
+      <div class="slider lang-slider round">
+        <span class="lang-label">JP</span>
+        <span class="lang-label">EN</span>
+      </div>
+    </label>
+  </div>
+  <div class="theme-switch-wrapper">
+    <label class="theme-switch" for="checkbox">
+      <input type="checkbox" id="checkbox" />
+      <div class="slider theme-slider round">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+      </div>
+    </label>
+  </div>
+
+  <div class="container">
+    <header>
+      <h1 id="title">Cybersecurity Multi-Tool</h1>
+      <p id="subtitle">Your comprehensive suite of security tools</p>
+    </header>
+
+    <main class="tools-grid">
+      <div class="tool-card" data-tool="password-generator">
+        <div class="tool-icon">
+          <i class="fas fa-key"></i>
+        </div>
+        <h3 id="tool-1-title">Password Generator</h3>
+        <p id="tool-1-desc">Generate secure, customizable passwords with various options and settings</p>
+        <a href="https://ttb3ar.github.io/passgen/" target="_blank" rel="noopener noreferrer" class="tool-button">
+          <span id="tool-1-button">Launch Tool</span>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+
+      <div class="tool-card" data-tool="password-checker">
+        <div class="tool-icon">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <h3 id="tool-2-title">Password Strength Checker</h3>
+        <p id="tool-2-desc">Analyze password strength and check against breach databases</p>
+        <a href="https://ttb3ar.github.io/passtrength/" target="_blank" rel="noopener noreferrer" class="tool-button">
+          <span id="tool-2-button">Launch Tool</span>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+
+      <div class="tool-card" data-tool="hash-demo">
+        <div class="tool-icon">
+          <i class="fas fa-fingerprint"></i>
+        </div>
+        <h3 id="tool-3-title">Hashing Demonstration</h3>
+        <p id="tool-3-desc">Learn and experiment with cryptographic hash functions</p>
+        <a href="https://ttb3ar.github.io/hashmo/" target="_blank" rel="noopener noreferrer" class="tool-button">
+          <span id="tool-3-button">Launch Tool</span>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+
+      <div class="tool-card" data-tool="aes-encryption">
+        <div class="tool-icon">
+          <i class="fas fa-lock"></i>
+        </div>
+        <h3 id="tool-4-title">AES Encryption Tool</h3>
+        <p id="tool-4-desc">Encrypt and decrypt data using Advanced Encryption Standard</p>
+        <a href="https://ttb3ar.github.io/educrypt/" target="_blank" rel="noopener noreferrer" class="tool-button">
+          <span id="tool-4-button">Launch Tool</span>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </main>
+
+    <section class="about-section">
+      <h2 id="about-title">About This Collection</h2>
+      <p id="about-desc">This collection of cybersecurity tools is designed to help users understand and implement better security practices. Each tool serves an educational purpose while providing practical functionality for everyday security needs.</p>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <div class="social-links">
+      <a href="https://github.com/ttb3ar" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/theodore-lin-7b391a299" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <p id="footer-text">Created by TTB3AR</p>
+    <p class="collection-note" id="collection-note">Part of the Cybersecurity Tools Collection</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
