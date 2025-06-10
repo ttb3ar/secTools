@@ -8,14 +8,14 @@ let isJapanese = false;
 const translations = {
   en: {
     title: "Cybersecurity Multi-Tool",
-    subtitle: "Your comprehensive suite of security tools",
+    subtitle: "A collection of security related tools",
     aboutTitle: "About This Collection",
-    aboutDesc: "This collection of cybersecurity tools is designed to help users understand and implement better security practices. Each tool serves an educational purpose while providing practical functionality for everyday security needs.",
+    aboutDesc: "Ever wonder what is possible with just statically hosted pages? This collection of cybersecurity tools is designed to help users understand and implement better security practices while also demonstrating what is possible with a minimal tech stack. Each tool serves an educational purpose while providing practical functionality for everyday security needs.",
     footer: "Created by TTB3AR",
-    collectionNote: "Part of the Cybersecurity Tools Collection",
+    collectionNote: "Arch btw",
     dashboard: {
       title: "Security Information Dashboard",
-      subtitle: "Real-time information about your browsing environment",
+      subtitle: "What information can your browser access statically?",
       ip: "IP Address",
       location: "Location",
       os: "Operating System",
@@ -45,7 +45,7 @@ const translations = {
       },
       4: {
         title: "AES Encryption Tool",
-        desc: "Encrypt and decrypt data using Advanced Encryption Standard",
+        desc: "Encrypt and decrypt data using Advanced Encryption Standard(AES)",
         button: "Launch Tool"
       }
     }
@@ -54,9 +54,9 @@ const translations = {
     title: "サイバーセキュリティマルチツール",
     subtitle: "包括的なセキュリティツールスイート",
     aboutTitle: "このコレクションについて",
-    aboutDesc: "このサイバーセキュリティツールのコレクションは、ユーザーがより良いセキュリティ慣行を理解し実装するのを支援するために設計されています。各ツールは教育目的を果たしながら、日常のセキュリティニーズに実用的な機能を提供します。",
+    aboutDesc: "静的ホスティングされたページだけで何が可能なのか、考えたことはありますか？このサイバーセキュリティツールのコレクションは、ユーザーがより良いセキュリティ実践を理解し実装するのを支援するだけでなく、最小限のテクノロジースタックで何が可能かを示すように設計されています。各ツールは教育的な目的を果たす一方で、日常のセキュリティニーズに対応する実践的な機能を提供しています。",
     footer: "TTB3AR制作",
-    collectionNote: "サイバーセキュリティツールコレクションの一部",
+    collectionNote: "ちなみにアーチ",
     dashboard: {
       title: "セキュリティ情報ダッシュボード",
       subtitle: "ブラウジング環境のリアルタイム情報",
@@ -89,7 +89,7 @@ const translations = {
       },
       4: {
         title: "AES暗号化ツール",
-        desc: "Advanced Encryption Standardを使用してデータを暗号化・復号化",
+        desc: "Advanced Encryption Standard(AES)を使用してデータを暗号化・復号化",
         button: "ツールを開く"
       }
     }
