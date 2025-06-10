@@ -59,7 +59,7 @@ const translations = {
     collectionNote: "ちなみにアーチ",
     dashboard: {
       title: "セキュリティ情報ダッシュボード",
-      subtitle: "ブラウジング環境のリアルタイム情報",
+      subtitle: "ブラウザは静的にどのような情報を取得できますか？",
       ip: "IPアドレス",
       location: "位置情報",
       os: "オペレーティングシステム",
