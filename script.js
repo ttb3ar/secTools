@@ -10,7 +10,7 @@ const translations = {
     title: "Cybersecurity Multi-Tool",
     subtitle: "A collection of security related tools",
     aboutTitle: "About This Collection",
-    aboutDesc: "Ever wonder what is possible with just statically hosted pages? This collection of cybersecurity tools is designed to help users understand and implement better security practices while also demonstrating what is possible with a minimal tech stack. Each tool serves an educational purpose while providing practical functionality for everyday security needs.",
+    aboutDesc: "Ever wonder what is possible with just statically hosted pages?<br> This collection of cybersecurity tools is designed to help users understand and implement better security practices while also demonstrating what is possible with a minimal tech stack. Each tool serves an educational purpose while providing practical functionality for everyday security needs.",
     footer: "Created by TTB3AR",
     collectionNote: "Arch btw",
     dashboard: {
