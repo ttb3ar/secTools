@@ -10,7 +10,7 @@ const translations = {
     title: "Cybersecurity Multi-Tool",
     subtitle: "A collection of security related tools",
     aboutTitle: "About This Collection",
-    aboutDesc: "Ever wonder what is possible with just statically hosted pages?\nThis collection of cybersecurity tools is designed to help users understand and implement better security practices while also demonstrating what is possible with a minimal tech stack. Each tool serves an educational purpose while providing practical functionality for everyday security needs.",
+    aboutDesc: "Ever wonder what is possible with just statically hosted pages?<br>This collection of cybersecurity tools is designed to help users understand and implement better security practices while also demonstrating what is possible with a minimal tech stack. Each tool serves an educational purpose while providing practical functionality for everyday security needs.",
     footer: "Created by TTB3AR",
     collectionNote: "Arch btw",
     dashboard: {
@@ -54,7 +54,7 @@ const translations = {
     title: "サイバーセキュリティマルチツール",
     subtitle: "包括的なセキュリティツールスイート",
     aboutTitle: "このコレクションについて",
-    aboutDesc: "静的ホスティングされたページだけで何が可能なのか、考えたことはありますか？\nこのサイバーセキュリティツールのコレクションは、ユーザーがより良いセキュリティ実践を理解し実装するのを支援するだけでなく、最小限のテクノロジースタックで何が可能かを示すように設計されています。各ツールは教育的な目的を果たす一方で、日常のセキュリティニーズに対応する実践的な機能を提供しています。",
+    aboutDesc: "静的ホスティングされたページだけで何が可能なのか、考えたことはありますか？<br>このサイバーセキュリティツールのコレクションは、ユーザーがより良いセキュリティ実践を理解し実装するのを支援するだけでなく、最小限のテクノロジースタックで何が可能かを示すように設計されています。各ツールは教育的な目的を果たす一方で、日常のセキュリティニーズに対応する実践的な機能を提供しています。",
     footer: "TTB3AR制作",
     collectionNote: "ちなみにアーチ",
     dashboard: {
