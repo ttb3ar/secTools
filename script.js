@@ -380,7 +380,7 @@ function updateDashboardLanguage(language) {
   document.getElementById('adblock-title').textContent = texts.dashboard.adblock;
   document.getElementById('referrer-title').textContent = texts.dashboard.referrer;
   document.getElementById('lang-title').textContent = texts.dashboard.language;
-  document.getElementById('timezone-title').textContent = texts.dashboard.timezone;
+  //document.getElementById('timezone-title').textContent = texts.dashboard.timezone;
   document.getElementById('storage-title').textContent = texts.dashboard.storage;
   
   // Update dynamic content that changes based on language
