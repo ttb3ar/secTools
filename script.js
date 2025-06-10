@@ -211,7 +211,7 @@ function updateUILanguage(language) {
   document.getElementById('title').textContent = texts.title;
   document.getElementById('subtitle').textContent = texts.subtitle;
   document.getElementById('about-title').textContent = texts.aboutTitle;
-  document.getElementById('about-desc').textContent = texts.aboutDesc;
+  document.getElementById('about-desc').innterHTML = texts.aboutDesc;
   document.getElementById('footer-text').textContent = texts.footer;
   document.getElementById('collection-note').textContent = texts.collectionNote;
   
