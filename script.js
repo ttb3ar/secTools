@@ -24,7 +24,7 @@ const translations = {
       adblock: "Ad Blocker",
       referrer: "Referrer",
       language: "Browser Language",
-      timezone: "Time Zone",
+      //timezone: "Time Zone",
       storage: "Local Storage"
     },
     tools: {
@@ -68,7 +68,7 @@ const translations = {
       adblock: "広告ブロッカー",
       referrer: "リファラー",
       language: "ブラウザ言語",
-      timezone: "タイムゾーン",
+      //timezone: "タイムゾーン",
       storage: "ローカルストレージ"
     },
     tools: {
@@ -279,8 +279,8 @@ function updateBasicInfo() {
   document.getElementById('lang-value').textContent = browserLang;
   
   // Time Zone
-  const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-  document.getElementById('timezone-value').textContent = timezone;
+  //const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  //document.getElementById('timezone-value').textContent = timezone;
   
   // Local Storage
   const storageSupport = checkLocalStorage();
