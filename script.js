@@ -47,6 +47,11 @@ const translations = {
         title: "AES Encryption Tool",
         desc: "Encrypt and decrypt data using Advanced Encryption Standard(AES)",
         button: "Launch Tool"
+      },
+      5: {
+        title: "XSS Playground",
+        desc: "A sandbox to simulate how XSS attacks work in a contained environment",
+        button: "Launch Tool"
       }
     }
   },
@@ -90,6 +95,11 @@ const translations = {
       4: {
         title: "AES暗号化ツール",
         desc: "Advanced Encryption Standard(AES)を使用してデータを暗号化・復号化",
+        button: "ツールを開く"
+      },
+      5: {
+        title: "XSSデモンストレーション",
+        desc: "XSS攻撃の動作を安全な環境でシミュレートする場所",
         button: "ツールを開く"
       }
     }
@@ -216,7 +226,7 @@ function updateUILanguage(language) {
   document.getElementById('collection-note').textContent = texts.collectionNote;
   
   // Update tool cards
-  for (let i = 1; i <= 4; i++) {
+  for (let i = 1; i <= 5; i++) {
     document.getElementById(`tool-${i}-title`).textContent = texts.tools[i].title;
     document.getElementById(`tool-${i}-desc`).textContent = texts.tools[i].desc;
     document.getElementById(`tool-${i}-button`).textContent = texts.tools[i].button;
